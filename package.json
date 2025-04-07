@@ -8,7 +8,8 @@
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "husky install",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "ssl:setup": "node scripts/generate-certificates.js"
   },
   "lint-staged": {
     "*.ts": [
