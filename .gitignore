@@ -1,9 +1,31 @@
-# Node Modules
-node_modules
+# Dependencies
+node_modules/
 
 # Build output
-dist
+dist/
 
-# Local env files
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
+# SSL certificates
+config/certificates/*.key
+config/certificates/*.crt
+config/certificates/*.pem
+
+# Obsidian vault - if needed for testing
+obsidian-vault/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
